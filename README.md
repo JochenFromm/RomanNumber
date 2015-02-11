@@ -26,7 +26,7 @@ Usage is simple
     > 2499
 
     $ RomanNumber::Converter.convert_int(2499)
-    > 2499
+    > "MMCDXCIX"
 
 ## Development
 
