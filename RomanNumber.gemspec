@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{Converts Roman Numbers}
   spec.description   = %q{}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/JochenFromm/RomanNumber"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
