@@ -1,5 +1,7 @@
 # RomanNumber
 
+[![Build Status](https://travis-ci.org/JochenFromm/RomanNumber.svg)](https://travis-ci.org/JochenFromm/RomanNumber)
+
 Just a simple gem to convert Roman Numbers to intergers and back :-)
 
 Roman numerals are simple I means 1, V means 5, MMXV means 2015, etc, see http://en.wikipedia.org/wiki/Roman_numerals
@@ -8,6 +10,9 @@ Remember "all the sea a drop in the universe [..] all the present time is a poin
 
 ~ Marcus Aurelius, Meditations, Book VI, Written 167 AD
 
+## Requirements
+
+  - Ruby 2.1.2
 
 ## Installation
 
