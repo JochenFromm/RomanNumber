@@ -24,6 +24,9 @@ module RomanNumber
       if !value.is_a? Integer
         raise ArgumentError, "'#{value}' is not a valid integer value.", caller
       end
+      if value < 0
+        raise ArgumentError, "There are no negative Roman numbers", caller
+      end
       result = ""
       NUMBERS.each do |key,x|
         if value >= x
