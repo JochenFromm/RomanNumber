@@ -8,11 +8,11 @@ module RomanNumber
     ["XC" ,  90],
     ["L"  ,  50],
     ["XL" ,  40],
-    ["X"  ,  10],
+    ["X"  ,  10], # X means 10, it can be composed of two hands or two Vs
     ["IX" ,   9],
-    ["V"  ,   5],
+    ["V"  ,   5], # V represents one hand with five fingers, esp. the V-shape made by thumb and forefinger
     ["IV" ,   4],
-    ["I"  ,   1]
+    ["I"  ,   1]  # "I" stands for one unit or finger
   ]
 end
 

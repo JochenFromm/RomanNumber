@@ -4,7 +4,10 @@
 
 Just a simple gem to convert Roman Numbers to integers and back :-)
 
-Roman numerals are simple I means 1, V means 5, X equals 10, and M is 1000. Thus MMXV means 2015, etc, see http://en.wikipedia.org/wiki/Roman_numerals
+Roman numerals are simple. There are seven basic symbols: I, V, X, L, C, D and M. I means 1, V means 5, X equals 10, L is 50, C is 100, D means 500 and M is 1000. Thus MMXV means 2015, etc, see for example
+
+- http://en.wikipedia.org/wiki/Roman_numerals
+- http://www.livescience.com/32052-roman-numerals.html
 
 Remember "all the sea a drop in the universe [..] all the present time is a point in eternity"
 
