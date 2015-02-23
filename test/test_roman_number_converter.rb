@@ -13,10 +13,31 @@ describe RomanNumber::Converter do
   end
 
   describe "raises an exception" do
-    it "if wrong number is passed" do
+    it "if wrong characters are passed" do
       assert_raises ArgumentError do
         @converter.convert_roman("QWERTZ")
       end
+    end
+    it "if integer is passed instead of string" do
+      assert_raises ArgumentError do
+        @converter.convert_roman(10)
+      end
+    end
+    it "if negative value is passed" do
+      assert_raises ArgumentError do
+        @converter.convert_int(-10)
+      end
+    end
+    it "if string is passed instead of integer" do
+      assert_raises ArgumentError do
+        @converter.convert_int("QWERTZ")
+      end
+    end
+  end
+
+  describe "converts zero" do
+    it "must convert empty string to 0" do
+      test_combination(0,"")
     end
   end
 
@@ -189,6 +210,7 @@ describe RomanNumber::Converter do
       test_combination(550,"DL")
 
       test_combination(707,"DCCVII")
+      test_combination(767,"DCCLXVII")
       test_combination(890,"DCCCXC")
       test_combination(900,"CM")
     end
@@ -240,6 +262,7 @@ describe RomanNumber::Converter do
       test_combination(2013,"MMXIII")
       test_combination(2014,"MMXIV")
       test_combination(2015,"MMXV")
+      test_combination(2349,"MMCCCXLIX")
       test_combination(2499,"MMCDXCIX")
     end
   end
