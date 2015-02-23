@@ -180,6 +180,7 @@ describe RomanNumber::Converter do
       test_combination(200,"CC")
       test_combination(300,"CCC")
       test_combination(400,"CD")
+      test_combination(448,"CDXLVIII")
       test_combination(500,"D")
 
       test_combination(501,"DI")
@@ -192,7 +193,7 @@ describe RomanNumber::Converter do
       test_combination(900,"CM")
     end
 
-    it "must convert big numbers" do
+    it "must convert years and big numbers" do
       test_combination(1000,"M")
       test_combination(1789,"MDCCLXXXIX")
       test_combination(1800,"MDCCC")
@@ -200,6 +201,10 @@ describe RomanNumber::Converter do
       test_combination(1954,"MCMLIV")
       test_combination(1984,"MCMLXXXIV")
       test_combination(1990,"MCMXC")
+      test_combination(1994,"MCMXCIV")
+      test_combination(1995,"MCMXCV")
+      test_combination(1996,"MCMXCVI")
+      test_combination(1997,"MCMXCVII")
       test_combination(1998,"MCMXCVIII")
       test_combination(1999,"MCMXCIX")
       test_combination(2000,"MM")
