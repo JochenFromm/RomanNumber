@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/JochenFromm/RomanNumber.svg)](https://travis-ci.org/JochenFromm/RomanNumber)
 
-Just a simple gem to convert Roman Numbers to integers and back :-)
+Just a simple Ruby gem to convert Roman Numbers to integers and back :-)
 
 Roman Numerals was the numeric system used in Ancient Rome. It was were the standard numbering system in Ancient Rome and Europe until about 900 AD. The system is simple (unless you do not try to add, subtract or multiply numbers). The numbers 1 to 10 can be expressed in Roman numerals as follows: I, II, III, IV, V, VI, VII, VIII, IX, X. There are seven basic symbols: I, V, X, L, C, D and M. I means 1, V means 5, X equals 10, L is 50, C is 100, D means 500 and M is 1000. Thus MMXV means 2015, etc, see for example
 
