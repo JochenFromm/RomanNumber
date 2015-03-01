@@ -4,7 +4,7 @@
 
 Just a simple gem to convert Roman Numbers to integers and back :-)
 
-The use of Roman Numerals was the standard numbering system and method of Arithmetic in Ancient Rome and Europe until about 900 AD. Roman numerals are simple (unless you do not try to add, subtract or multiply numbers) There are seven basic symbols: I, V, X, L, C, D and M. I means 1, V means 5, X equals 10, L is 50, C is 100, D means 500 and M is 1000. Thus MMXV means 2015, etc, see for example
+Roman Numerals was the numeric system used in Ancient Rome. It was were the standard numbering system in Ancient Rome and Europe until about 900 AD. The system is simple (unless you do not try to add, subtract or multiply numbers). The numbers 1 to 10 can be expressed in Roman numerals as follows: I, II, III, IV, V, VI, VII, VIII, IX, X. There are seven basic symbols: I, V, X, L, C, D and M. I means 1, V means 5, X equals 10, L is 50, C is 100, D means 500 and M is 1000. Thus MMXV means 2015, etc, see for example
 
 - http://en.wikipedia.org/wiki/Roman_numerals
 - http://www.livescience.com/32052-roman-numerals.html
